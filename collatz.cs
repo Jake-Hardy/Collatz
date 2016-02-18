@@ -17,7 +17,7 @@ class Collatz
 				startingNum /= 2;
 				count++;
 			}
-			else if (startingNum % 2 == 1)
+			else 
 			{
 				Console.WriteLine(startingNum + " * 3 + 1 = " + (startingNum * 3 + 1));
 				startingNum = startingNum * 3 + 1;
